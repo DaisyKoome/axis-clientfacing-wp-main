@@ -40,15 +40,15 @@ get_header(); ?>
                          <div class="pic-wrapper">
                              <img src="<?php echo the_post_thumbnail_url(); ?>" alt="<?php echo the_title(); ?>">
                          </div>
-                         <div class="content">
+                         <div class="content" style="height: 340px;">
                           <div class="date tbl">
                               <span class=" col left">PRODUCTIVITY</span>
-                              <span class=" col right">3 days ago</span>
+                              <span class=" col right"><?php echo the_date(); ?></span>
                           </div>
                            <a href="<?php echo the_permalink(); ?>">
                           <span class="captn"><?php echo the_title(); ?></span>
                           <p> <?php echo the_excerpt(); ?></p>
-                           <span class="right"><span class="primary-btn transparent-btn">Learn More</span></span>
+                           <span class="" style=""><span class="primary-btn transparent-btn">Learn More</span></span>
                              </a>
                          </div>
                      </li>

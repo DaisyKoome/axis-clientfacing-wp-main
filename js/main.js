@@ -1,27 +1,27 @@
 jQuery(document).ready(function(){
 
-    /*--- SCROLLING ---*/
-    var jQueryheader = jQuery('header');
+   /*--- SCROLLING ---*/
+    var $header = $('header');
     var offset = 100;
 
     jQuery(window).scroll(function(){
-        if (jQuery(this).scrollTop() > offset ) {
-            jQueryheader.addClass('scrolling');
+        if ($(this).scrollTop() > offset ) {
+            $header.addClass('scrolling');
         } else {
-            jQueryheader.removeClass('scrolling');
+            $header.removeClass('scrolling');
         }
     });
 
 
     /*--- partners-owl-carousel ---*/
     jQuery(".mobile-partners").owlCarousel({
-        autoplay:true,
-        margin:0,
-        center: true,
+        autoplay:false,
         loop:true,
-        navRewind:false,
+        margin:0,
         items:4,
+        dots: false,
         nav:true,
+        responsiveClass:true,
         navText:["<span class='icon-keyboard_arrow_left'></span>","<span class='icon-keyboard_arrow_right'></span>"],
         dots:false,
         responsive: {
@@ -37,7 +37,7 @@ jQuery(document).ready(function(){
                 nav: true,
             },
             1000: {
-                items: 3,
+                items: 5,
                 nav: true,
             }
         }

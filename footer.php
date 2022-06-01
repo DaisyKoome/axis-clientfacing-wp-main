@@ -35,10 +35,10 @@
                                 <ul style="display: block">
                                     <li><a href="<?php echo home_url('/company/'); ?>">Company</a></li>
 <!--                                     <li><a href="#">Product Roadmap</a></li> -->
-                                    <li><a href="<?php echo home_url('/career/'); ?>">Careers</a></li>
+                                    
                                    
                                     <li><a href="<?php echo home_url('/contact-us/'); ?>">Contact Us</a></li>
-                                    <li><a href="<?php echo home_url('/terms-condition/'); ?>">Terms</a></li>
+                                    <li><a href="<?php echo home_url('/terms-condition/'); ?>">Terms of Use</a></li>
                                     <li><a href="<?php echo home_url('/privacy/'); ?>">Privacy</a></li>
                                 </ul>
                             </div>
@@ -47,11 +47,12 @@
                             <h2 class="ttle">Resources</h2>
                             <div class="links-wrap">
                                 <ul style="display: block">
-                                    <li><a href="<?php echo home_url('/blog/'); ?>"> Blog</a></li>
+                                    
 <!--                                     <li><a href="#">Watch a Demo</a></li> -->
+                                    <li><a href="https://axis.tawk.help/">Help Center</a></li>
+                                    <li><a href="<?php echo home_url('/blog/'); ?>"> Blogs</a></li>
                                     <li><a href="<?php echo home_url('/webinars/'); ?>">Webinars</a></li>
-                                    <li><a href="#">What's New</a></li>
-                                    <li><a href="<?php echo home_url('/help-center/'); ?>">Help Center</a></li>
+                                    <!-- <li><a href="https://clients.belva.co.ke/axis/changelog/">What's New</a></li> -->
                                     <li><a target="_blank" href="https://status.axis.africa/">Service Status</a></li>
                                 </ul>
                             </div>
@@ -92,6 +93,8 @@
     </section>
     <!-- footer -->
 </div><!-- #page -->
+
+
 
 
 <?php wp_footer(); ?>

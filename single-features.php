@@ -19,13 +19,13 @@
 
                    
                     <a target="_blank" href="https://app.axis.africa/register">
-                            <button class="btn primary-btn">
+                            <button class="btn primary-btn" id="btn-start-features">
                                 <span>Get Started</span>
                             </button>
                         </a>
 
                         <a href="mailto:support@axis.africa">
-                            <button class="btn primary-btn">
+                            <button class="btn primary-btn request-demo">
                                 <span>Request Demo</span>
                             </button>
                         </a>

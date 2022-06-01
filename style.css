@@ -954,7 +954,8 @@ h3 {
 
 .date .col.right {
   text-align: right;
-  text-transform: lowercase;
+    text-transform: uppercase;
+
 }
 
 .transparent-btn {
@@ -1471,10 +1472,10 @@ form {
   margin: 0 auto;
 }
 
-.conts .conts-input {
+.conts .conts-input, #input_1_1,  #input_1_2,  #input_1_4  {
   padding: 12px 12px 14px 12px;
   border: 1px solid #c5cbd0;
-  margin: 0 0 30px;
+  margin: 0 0 20px;
   background-color: #fff;
   color: #003b4c;
   font-size: 12px;
@@ -1485,13 +1486,14 @@ form {
   font-style: italic;
 }
 
-.conts .conts-txtarea {
+.conts .conts-txtarea, #input_1_5 {
   padding: 12px 12px 14px 12px;
   border: 1px solid #c5cbd0;
   margin: 0;
   background-color: #fff;
   color: #003b4c;
   font-size: 12px;
+	height:180px;
   width: 100%;
   resize: none;
   font-family: "satoshiregular", Arial, sans-serif;
@@ -1505,15 +1507,18 @@ form {
   top: -20px;
 }
 
-.conts .blue {
-  background-color: #2684ff;
-  height: 40px;
-  line-height: 40px;
-  width: 100%;
-  margin: 20px 0 0 0;
-  max-width: 100%;
-  font-family: "satoshiregular", Arial, sans-serif;
-  font-size: 17px;
+.conts .blue, #gform_submit_button_1 {
+      background-color: #2684ff;
+    height: 40px;
+    line-height: 37px;
+    width: 100%;
+    margin: 20px 0 0 0;
+    max-width: 100%;
+    font-family: "satoshiregular", Arial, sans-serif;
+    font-size: 17px;
+    border: none;
+    color: white;
+    border-radius: 30px;
 }
 
 /*header.scrolling {
@@ -2051,8 +2056,9 @@ ul.accordion.questions{
   margin-bottom: 15px;
 }
 /*----------end-of-faqs ----------*/
-
-
+section.partners.padding-top-bottom {
+  padding: 50px 0 0;
+}
 /*----------MEDIA QUERIES ----------*/
 @media only screen and (max-width: 1100px) {
   .customer-banner h1 {
@@ -2179,8 +2185,8 @@ ul.accordion.questions{
     margin: 0 auto;
   }
   .articles ul li {
-    width: 100%;
-    display: block;
+    width: 100% !important;
+    display: block !important;
     text-align: center;
   }
   .icn {
@@ -2986,4 +2992,17 @@ Responsive Tabbed Navigation - by CodyHouse.co
   100% {
     opacity: 1;
   }
+}
+
+@media only screen and (max-width: 650px) {
+  .two .btn {
+    display: block;
+    padding: 0px 35px;
+  }
+
+  .transparent-top {
+    display: block;
+    margin: 20px auto;
+  }
+
 }

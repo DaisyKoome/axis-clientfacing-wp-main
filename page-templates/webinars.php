@@ -42,7 +42,7 @@ get_header(); ?>
                              <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/03/—Pngtree—yellow-play-button_854581.png" alt="<?php echo the_title(); ?>">
 							 </a>
                          </div>
-                         <div class="content" style="height: 100px;" >
+                         <div class="content" style="height: 120px;" >
 <!--                           <div class="date tbl">
                               <span class=" col left">PRODUCTIVITY</span>
                               <span class=" col right">3 days ago</span>

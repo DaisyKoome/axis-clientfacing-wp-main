@@ -1,6 +1,4 @@
 
-
-
 <section class="communication">
     <div class="wrapper">
          <div class="comm">
@@ -15,13 +13,13 @@
                      </p>
                      <div class="btn-side">
                         <a target="_blank" href="https://app.axis.africa/register">
-                         <button class="btn primary-btn">Get Started</button>
+                         <button class="btn primary-btn" id="cta-start">Get Started</button>
                         </a>
                         <a href="mailto:support@axis.africa">
-                         <button class="btn primary-btn">Request Demo</button>
+                         <button class="btn primary-btn request-demo" id="cta-demo">Request Demo</button>
                         </a>
                      </div>
-                     <p class="set-up">Easy setup · Cancel any time. Check out <a href="<?php echo home_url('/terms'); ?>">Terms of Use.</a></p>
+                     <p class="set-up">Easy setup · Cancel any time. Check out <a href="<?php echo home_url('/terms-conditions'); ?>">Terms of Use.</a></p>
 
                  </div>
              </div>

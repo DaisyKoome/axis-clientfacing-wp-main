@@ -22,7 +22,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> >
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<!-- main_wrapper -->
@@ -64,7 +64,7 @@
     </div>
     <!-- mobile_nav_wrapper end -->
     <!-- header -->
-    <section class="">
+    <section class="" style="overflow-x: hidden;overflow-y: hidden;">
         <header class="scrollingg">
             <div class="wrapper" class="clearfloat">
                 <div class="top-bar">
@@ -100,11 +100,20 @@
                                     </ul>
                                 </div>
                             </li>
-                                <li >
+                            <!-- <li >
                                     <a target="_blank" href="https://axis.tawk.help/">Help Centre</a>
+                                </li> -->
+                                <li class="has-children">
+                                <a href="#">Resources</a>
+                                <div class="sub-menu" id="res-menu">
+                                    <ul>                     
+                                        <li><a target="_blank" href="https://axis.tawk.help/"><span>Help Centre</span></a></li>
+                                        <li id="blog-menu"><a href="<?php echo home_url('/blog'); ?>"><span>Blogs</span></a></li>                                       
+                                    </ul>
+                                </div>
                                 </li>
                                 <li >
-                                    <a href="<?php echo home_url('/pricing/'); ?>">Pricing</a>
+                                    <a href="<?php echo home_url('/pricing'); ?>">Pricing</a>
                                 </li>
                                 <!-- <li>
                                     <a href="about-us.html">Jobs</a>
@@ -112,7 +121,7 @@
                             </ul>
                         </div>
                         <button class="btn btn-secondary btn-join">
-                            <span>Join us</span>
+                            <span><a href="https://app.axis.africa/register">Join us</a></span>
                         </button>
                       
                     </div>

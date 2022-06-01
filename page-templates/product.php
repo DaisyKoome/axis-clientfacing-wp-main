@@ -91,7 +91,7 @@ get_header(); ?>
             <div class="wrapper">
             <div class="card-left">
                 <div class="col-content">
-                    <span class="blue-text">Make More Money </span>
+                    <span class="blue-text">Broaden your client base </span>
                     <h1 class="chat-box-heading">SMS Marketing</h1>
                     <div><?php echo the_field('two-way_and_bulk_sms_content'); ?></div>
 
@@ -106,7 +106,7 @@ get_header(); ?>
             <div class="wrapper">
             <div class="card-left">
                 <div class="col-content">
-                    <span class="blue-text">Reach Out</span>
+                    <span class="blue-text">Leverage on emails</span>
                     <h1 class="chat-box-heading">Email Marketing</h1>
                     <div><?php echo the_field('email_marketing_content'); ?></div>
 
@@ -121,7 +121,7 @@ get_header(); ?>
             <div class="wrapper">
             <div class="card-left">
                 <div class="col-content">
-                    <span class="blue-text">Make More Money </span>
+                    <span class="blue-text">Segment your clients </span>
                     <h1 class="chat-box-heading">Audience Center</h1>
                     <div><?php echo the_field('audience_content'); ?></div>
 
@@ -151,9 +151,9 @@ get_header(); ?>
                      </p>
                      <div class="btn-side">
                          <button class="btn primary-btn">Get Started</button>
-                         <button class="btn primary-btn blue">Request Demo</button>
+                         <button class="btn primary-btn request-demo">Request Demo</button>
                      </div>
-                     <p class="set-up">Easy setup · Cancel any time. Check out <a href="#">Terms of Use.</a></p>
+                     <p class="set-up">Easy setup · Cancel any time. Check out <a href="https://clients.belva.co.ke/axis/terms-conditions/">Terms of Use.</a></p>
 
                  </div>
              </div>

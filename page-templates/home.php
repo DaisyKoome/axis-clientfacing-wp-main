@@ -15,7 +15,7 @@
 get_header(); ?>
 
       
-    <div class="customer-banner offset" style="background: linear-gradient(45deg, #e9fcff 30%, #fdf2ed 60%);">
+    <div class="customer-banner offset" style="background: linear-gradient(45deg, #e9fcff 30%, #fdf2ed 60%);padding-bottom: 110px;">
         <div class="wrapper">
             <div class="tbl">
                 <div class="col left">
@@ -23,20 +23,39 @@ get_header(); ?>
                         <button class="btn btn-secondary new-b">
                             <span>New</span>
                         </button>
-                        <span class="tele">We just added Telegram to Unified inbox</span>
+                        <span class="tele">Unified multi-agent inbox is now available for WhatsApp</span>
                     </div>
                     <h1>A unified customer engagement platform</h1>
                     <p>All-in-one platform to connect, engage and transact with your customers across
-                        multiple communication channels</p>
-                    <a target="_blank" href="https://app.axis.africa/register"><button class="btn primary-btn"><span>Get Started</span></button></a>
-                    
-                    <a href="mailto:support@axis.africa"><button class="btn primary-btn request-demo"><span>Request Demo</span></button></a>
+                        multiple communication channels.</p>
+                   				
+					<div class="two">
+                        <a target="_blank" href="https://app.axis.africa/register"><button class="btn primary-btn"><span>Get Started</span></button></a>
+                        <a href="mailto:support@axis.africa"><button class="btn primary-btn request-demo"><span>Request Demo</span></button></a>
+                    </div>
 
                 </div>
                 <div class="col right bner">
-                    <a href="#">
-                        <img src="<?php echo the_post_thumbnail_url(); ?>" width="521" height="494" alt="banner">
-                    </a>
+                    <!-- <a href="#">
+                        <img src="php echo the_post_thumbnail_url(); ?>" width="521" height="494" alt="banner">
+                    </a> -->
+                  <div class="animation scale-animation">  
+                    <div id="container3"> 
+                    <div class="item3"><img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/mail.png" alt="Email icon"></div>
+                    <div class="item3"><img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/fb.png" alt="Facebook icon"></div>
+                    <div class="item3"><img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/1024px-Instagram_icon.png" alt="Instagram icon"></div>
+                    <div class="item3 d2"><img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/twitter.png" alt="Twitter icon"></div>   
+                    </div>
+
+                    <div id="container">
+                    <div id="container2"><img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/Axis-Vid-BG-2.png" alt="Chic" class="chic" style="transform: scale(1.3, 1.3);"></div>  
+                    <div class="item"><img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/WhatsApp_icon.png" alt="Whatsapp icon"></div>
+                    <div class="item"><img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/png-clipart-chatbox-icon-computer-icons-message-sms-icon-message-miscellaneous-grass.png" alt="Message icon"></div>
+                    <div class="item"><img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/png-clipart-telegram-computer-icons-facebook-messenger-instant-messaging-diba-triangle-online-chat.png" alt="Telegram icon"></div>
+                    </div>
+
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -46,36 +65,48 @@ get_header(); ?>
   </section>
 
   <!-- partners -->
-<section class="partners padding-top-bottom">
-         <div class="wrapper">
+  <section class="partners padding-top-bottom">
              <h2 class="centre" style="filter: none;">A unified customer engagement platform</h2>
-            
-         </div>
+             <div class="container-scroll">
 
-    <div class="partners-logos">
-        <div class="mobile-partners owl-carousel">
-        <?php
-        
-        $args = array(
-            'post_type' => 'partners',
-            'order' => 'ASC',
-            'posts_per_page' => -1,
-        );
-        
-        $query = new WP_Query( $args ); ?>
-
-        <?php  while ( $query->have_posts() ) : $query->the_post(); ?>
-
-            <div class="item">
-                <span class="steps-pic">
-                    <a href="#"><img src="<?php echo the_post_thumbnail_url(); ?>" width="248" height="68" alt="<?php echo the_title(); ?>"></a>
-                </span>
-            </div>
-
-            <?php endwhile; ?>
+        <div class="faders-scroll">
+            <div class="left-scroll"></div>
+            <div class="right-scroll"></div>
         </div>
-    </div>
-    <!-- end-of-partners-mobile -->
+
+        <div class="items-scroll">
+            <div class="entry-scroll">
+                <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/Axis-Logos-2-min.jpg" alt="Smiling chick" class="img-scroll" style="object-fit:cover !important;">
+            </div>
+            <div class="entry-scroll">
+                <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/Axis-Logos-4-min.jpg" alt="Smiling chick" class="img-scroll">
+            </div>
+            <div class="entry-scroll">
+                <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/Axis-Logos-1-min.jpg" alt="Smiling chick" class="img-scroll">
+            </div>
+            <div class="entry-scroll">
+                <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/Axis-Logos-3-min.jpg" alt="Smiling chick" class="img-scroll">
+            </div>
+            <div class="entry-scroll">
+                <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/Axis-Logos-5-min.jpg" alt="Smiling chick" class="img-scroll">
+            </div>
+            <div class="entry-scroll">
+                <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/Axis-Logos-6-min.jpg" alt="Smiling chick" class="img-scroll" style="object-fit:cover !important;">
+            </div>
+            <div class="entry-scroll">
+                <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/Axis-Logos-8-min.jpg" alt="Smiling chick" class="img-scroll" style="object-fit:cover !important;">
+            </div>
+            <div class="entry-scroll">
+                <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/Axis-Logos-9-min.jpg" alt="Smiling chick" class="img-scroll" style="object-fit:cover !important;">
+            </div>
+            <div class="entry-scroll">
+                <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/Axis-Logos-7-min.jpg" alt="Smiling chick" class="img-scroll" style="object-fit:cover !important;">
+            </div>
+            <div class="entry-scroll">
+                <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/Axis-Logos-10-min.jpg" alt="Smiling chick" class="img-scroll" style="object-fit:cover !important;">
+            </div>
+        </div>
+</div>
 </section>
 <!-- end-of-partners -->
 <!-- partners-mobile -->
@@ -90,7 +121,7 @@ get_header(); ?>
                       so you can build great customer relationships, every step of the way.
                   </p>
 				  <a href="<?php echo home_url('/features'); ?>">
-				  	<button class="btn primary-btn">Learn More</button>
+				  	<button class="btn primary-btn" style="margin-bottom: 10px;">Learn More</button>
 				  </a>
                   
               </div>
@@ -107,13 +138,17 @@ get_header(); ?>
 
                     <?php  while ( $query->have_posts() ) : $query->the_post(); ?>
 
+                   
                         <li>
+                        <a href="<?php echo the_permalink(); ?>">
                             <div class="icn">
                                 <img src="<?php echo the_field('features_logo'); ?>" width="" height="">
                             </div>
                             <h2 class="ttle"><?php echo the_title(); ?></h2>
-                            <p><?php echo the_field('features_excerpt'); ?></p>
+                            <?php echo the_field('features_excerpt'); ?>
+                        </a>    
                         </li>
+                    
 
                     <?php endwhile; ?>
                      
@@ -141,27 +176,27 @@ get_header(); ?>
 
                  <?php  while ( $query->have_posts() ) : $query->the_post(); ?>
 
-                    <li>
+                 <li>
                          <div class="pic-wrapper">
-                             <img src="<?php echo the_post_thumbnail_url(); ?>" alt="">
+                             <img src="<?php echo the_post_thumbnail_url(); ?>" alt="<?php echo the_title(); ?>">
                          </div>
-                         <div class="content">
-                             <div class="date tbl">
-                                 <span class=" col left">Productivity</span>
-                                 <span class=" col right"><?php echo get_the_date('Y-m-d'); ?></span>
-                             </div>
-                             <a href="<?php echo the_permalink(); ?>">
-                                 <span class="captn"><?php echo the_title(); ?></span>
-                                 <p><?php echo the_excerpt(); ?></p>
-                                 <span class="right" style="position: absolute;
-  bottom: 20px;
-"><span class="primary-btn transparent-btn">Learn More</span></span>
+                         <div class="content" style="height: 340px;">
+                          <div class="date tbl">
+                              <span class=" col left">PRODUCTIVITY</span>
+                              <span class=" col right"><?php echo the_date(); ?></span>
+                          </div>
+                           <a href="<?php echo the_permalink(); ?>">
+                          <span class="captn"><?php echo the_title(); ?></span>
+                          <div class="excerpt">							  
+							   <p> <?php echo the_excerpt(); ?></p>
+						  </div>
+                           <span><span class="primary-btn transparent-btn">Learn More</span></span>
                              </a>
                          </div>
-                     </li>
+                 </li>
 
 
-                     <?php endwhile; ?> 
+                 <?php endwhile; ?> 
                          
                  </ul>
              </div>

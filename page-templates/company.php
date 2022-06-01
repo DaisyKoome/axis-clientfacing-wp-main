@@ -25,8 +25,8 @@ get_header(); ?>
     width: 50%;
 ">
                      
-                      <h2>About Axis</h2>
-                      <p>Axis is a product of our extensive experience working with businesses of all sizes at Belva Digital. We have first-hand knowledge of what growing businesses require to scale. Most marketing and communication platforms are designed for large businesses and come with complexities and an enterprise-level price tag.</p>
+                      <h2>About AXIS</h2>
+                      <p>AXIS is a product of our extensive experience working with businesses of all sizes at Belva Digital. We have first-hand knowledge of what growing businesses require to scale. Most marketing and communication platforms are designed for large businesses and come with complexities and an enterprise-level price tag.</p>
                          
                           <a target="_blank" href="https://belvadigital.com/">
                             <button class="btn primary-btn">Visit Belva Digital</button>

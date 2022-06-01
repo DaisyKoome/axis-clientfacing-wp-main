@@ -141,10 +141,18 @@ function axis_scripts() {
 	wp_enqueue_style( 'axis-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'axis-style', 'rtl', 'replace' );
 	wp_enqueue_style( 'axis-plugins', get_template_directory_uri() . '/css/plugin.css');
+	wp_enqueue_style( 'axis-plugins', get_template_directory_uri() . '/css/blog.css');
 
+	wp_enqueue_style( 'scroll', get_template_directory_uri() . '/css/scroll.css',false,'1.1','all');
+
+	wp_enqueue_style( 'animation2', get_template_directory_uri() . '/css/animation2.css',false,'1.1','all');
+
+	wp_enqueue_style( 'axis-plugins', get_template_directory_uri() . '/css/scroll.css');	
 
 	wp_enqueue_script( 'axis-jquery', get_template_directory_uri() . '/js/jquery-3.4.1.min.js', array(), _S_VERSION, true, true );
 	wp_enqueue_script( 'axis-main', get_template_directory_uri() . '/js/main.js', array(), _S_VERSION, true, true );
+	wp_enqueue_script( 'animation-1', get_template_directory_uri() . '/js/animation.js', array(), _S_VERSION, true, true );
+	wp_enqueue_script( 'animation-2', get_template_directory_uri() . '/js/animation2.js', array(), _S_VERSION, true, true );    
 	wp_enqueue_script( 'axis-pluginsjs', get_template_directory_uri() . '/js/plugins.js', array(), _S_VERSION, true, true );
 // 	wp_enqueue_script( 'axis-3js', get_template_directory_uri() . '/js/3.js', array(), _S_VERSION, true );
 
@@ -183,4 +191,3 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
-

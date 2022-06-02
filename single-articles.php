@@ -3,12 +3,21 @@
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/blog.css" />
 
 <!-- end-of-header -->
-<div class="wrapper">
-<div class="blog-titl">
-    <h2 style="margin-top: 100px;margin-bottom: 50px;text-align: center;"><?php echo the_title(); ?></h2>
-</div>
 
-<section>
+
+<section class="fill-inner">
+<!-- <h2 class="centre">Contact Us</h2> -->
+</section>
+<section class="inside-pages-topper">
+<h2 class="centre"><?php echo the_title(); ?></h2>
+</section>
+
+<!--<div class="blog-titl">
+    <h2 style="margin-top: 100px;margin-bottom: 50px;text-align: center;"><php echo the_title(); ?></h2>
+</div> -->
+
+<section class="blogs-section">
+<div class="wrapper blogs">
     <div>
         <div class="row">
             <div class="col-lg-8">

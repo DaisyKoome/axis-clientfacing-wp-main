@@ -1,16 +1,16 @@
 .container-scroll {
     margin: 0;
-    height: calc(20vh);
+    height: calc(18vh);
     background-color: #f3f6f9;
     width: 100%;
     overflow: hidden;
     position: relative;
+	display: flex;
 }
 
 .items-scroll {
     margin-top: 10px;
     margin-bottom: 10px;
-    /* filter: grayscale(100%); */
 }
 
 .img-scroll {

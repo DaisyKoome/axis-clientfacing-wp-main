@@ -79,7 +79,7 @@ get_header(); ?>
                 <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/Axis-Logos-2-min.jpg" alt="Smiling chick" class="img-scroll" style="object-fit:cover !important;">
             </div>
             <div class="entry-scroll">
-                <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/Axis-Logos-4-min.jpg" alt="Smiling chick" class="img-scroll">
+                <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/06/KOMIUTA-LOGO-min.png" alt="Smiling chick" class="img-scroll">
             </div>
             <div class="entry-scroll">
                 <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/Axis-Logos-1-min.jpg" alt="Smiling chick" class="img-scroll">
@@ -91,8 +91,17 @@ get_header(); ?>
                 <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/Axis-Logos-5-min.jpg" alt="Smiling chick" class="img-scroll">
             </div>
             <div class="entry-scroll">
+                <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/06/logo.svg" alt="Smiling chick" class="img-scroll">
+            </div>
+            <div class="entry-scroll">
                 <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/Axis-Logos-6-min.jpg" alt="Smiling chick" class="img-scroll" style="object-fit:cover !important;">
             </div>
+            <div class="entry-scroll">
+                <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/06/MAC-LOGO-min.gif" alt="Smiling chick" class="img-scroll" style="object-fit:cover !important;">
+            </div>
+            <div class="entry-scroll">
+                <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/Axis-Logos-4-min.jpg" alt="Smiling chick" class="img-scroll">
+            </div>			
             <div class="entry-scroll">
                 <img src="https://clients.belva.co.ke/axis/wp-content/uploads/2022/05/Axis-Logos-8-min.jpg" alt="Smiling chick" class="img-scroll" style="object-fit:cover !important;">
             </div>

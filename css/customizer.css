@@ -381,6 +381,11 @@ h3 {
 }
 
 @media (min-width: 320px) and (max-width: 480px){
+form#forminator-module-973 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100% !important;
+}
 	.new {
     width: 100%;
     display: inline-grid;
@@ -848,4 +853,154 @@ li#blog-menu {
 .products-cases ul li {
     padding: 20px 0px;
 
+}
+
+input#forminator-field-name-1 {
+    padding: 12px 12px 14px 12px !important;
+    border: 1px solid #c5cbd0 !important;
+    background-color: #fff !important;
+    color: #003b4c !important;
+    font-size: 14px !important;
+    width: 100% !important;
+    resize: vertical !important;
+    font-family: "satoshiregular", Arial, sans-serif !important;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input#forminator-field-email-1 {
+    padding: 12px 12px 14px 12px !important;
+    border: 1px solid #c5cbd0 !important;
+    background-color: #fff !important;
+    color: #003b4c !important;
+    font-size: 14px !important;
+    width: 100% !important;
+    resize: vertical !important;
+    font-family: "satoshiregular", Arial, sans-serif !important;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input#forminator-field-text-1 {
+    padding: 12px 12px 14px 12px !important;
+    border: 1px solid #c5cbd0 !important;
+    background-color: #fff !important;
+    color: #003b4c !important;
+    font-size: 14px !important;
+    width: 100% !important;
+    resize: vertical !important;
+    font-family: "satoshiregular", Arial, sans-serif !important;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea#forminator-field-textarea-1 {
+    padding: 12px 12px 14px 12px !important;
+    border: 1px solid #c5cbd0 !important;
+    background-color: #fff !important;
+    color: #003b4c !important;
+    font-size: 14px !important;
+    width: 100% !important;
+    resize: vertical !important;
+    font-family: "satoshiregular", Arial, sans-serif !important;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form#forminator-module-973 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+}
+
+label.forminator-label {
+    display: none !important;
+}
+
+button.forminator-button.forminator-button-submit {
+    background-color: #e1b641 !important;
+    height: 40px !important;
+    line-height: 37px !important;
+    width: 100% !important;
+    /* margin: 20px 0 0 0; */
+    max-width: 100% !important;
+    font-family: "satoshiregular", Arial, sans-serif !important;
+    font-size: 17px !important;
+    border: none !important;
+    color: white !important;
+    border-radius: 30px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+    /* display: flex; */
+    /* padding-bottom: 10px !important; */
+    /* margin-bottom: 10px !important; */
+    padding: 0px !important;
+}
+
+.features {
+    background-image: url(https://clients.belva.co.ke/axis/wp-content/uploads/2022/06/axis-banner-1024x368-1.jpeg);
+}
+
+.inside-pages-topper {
+    background: linear-gradient(45deg, #e9fcff 30%, #fdf2ed 60%);
+    height: 174px;
+    background-image: url(https://clients.belva.co.ke/axis/wp-content/uploads/2022/06/axis-banner-1024x368-1.jpeg);
+    display: flex;
+    align-items: center;
+}
+
+.inside-pages-topper h2 {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.package:nth-child(even) {
+    background: #e9e9e9;
+    padding: 30px;
+    background-image: url(https://clients.belva.co.ke/axis/wp-content/uploads/2022/06/axis-banner-1024x368-1.jpeg);
+    /* background-repeat: no-repeat; */
+    /* display: flex; */
+}
+
+
+.col-content {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.page-id-130 section.products-cases.padding-top-bottom {
+    background-image: url(https://clients.belva.co.ke/axis/wp-content/uploads/2022/06/Repeat-Grid-47.png);
+}
+
+.page-id-130 .inside-pages-topper {
+    background: linear-gradient(45deg, #e9fcff 30%, #fdf2ed 60%);
+    height: 174px;
+    background-image: url(https://clients.belva.co.ke/axis/wp-content/uploads/2022/06/payments-pricing-1024x378-1.jpeg);
+    display: flex;
+    align-items: center;
+}
+
+section.conts.padding-top-bottom {
+    padding-bottom: 0;
+    background-image: url(https://clients.belva.co.ke/axis/wp-content/uploads/2022/06/Repeat-Grid-47.png);
+}
+
+section.products-cases.bg-blue.padding-top-bottom {
+    background-image: url(https://clients.belva.co.ke/axis/wp-content/uploads/2022/06/axis-banner-1024x368-1.jpeg);
+}
+
+section.blogs-section {
+    background-image: url(https://clients.belva.co.ke/axis/wp-content/uploads/2022/06/Repeat-Grid-47.png);
+}
+
+span.tele:hover {
+    color: #000;
 }

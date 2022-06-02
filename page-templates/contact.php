@@ -24,10 +24,13 @@ get_header(); ?>
 
 <section class="conts padding-top-bottom">
     <!-- contact-form -->
-    <div class="wrapper">
-        <?php echo do_shortcode( '[gravityform id="1" title="false" description="false" ajax="true"]' ); ?>
+    <!-- <div class="wrapper">
+        <php echo do_shortcode( '[gravityform id="1" title="false" description="false" ajax="true"]' ); ?>
+    </div> -->
+	
+	<div class="wrapper">
+        <?php echo do_shortcode( '[forminator_form id="973"]' ); ?>
     </div>
-
     <!-- contact-form end -->
 </section>
 
@@ -44,8 +47,12 @@ get_header(); ?>
                        for free today and simplify customer engagement.
                      </p>
                      <div class="btn-side">
-                         <button class="btn primary-btn">Get Started</button>
-                         <button class="btn primary-btn blue">Request Demo</button>
+                        <a target="_blank" href="https://app.axis.africa/register">
+                         <button class="btn primary-btn" id="cta-start">Get Started</button>
+                        </a>
+                        <a href="mailto:support@axis.africa">
+                         <button class="btn primary-btn request-demo" id="cta-demo">Request Demo</button>
+                        </a>
                      </div>
                      
                      <p class="set-up">Easy setup · Cancel any time. Check out <a href="#">Terms of Use.</a></p>

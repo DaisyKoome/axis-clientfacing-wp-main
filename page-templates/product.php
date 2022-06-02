@@ -150,8 +150,12 @@ get_header(); ?>
                        for free today and simplify customer engagement.
                      </p>
                      <div class="btn-side">
-                         <button class="btn primary-btn">Get Started</button>
-                         <button class="btn primary-btn request-demo">Request Demo</button>
+                        <a target="_blank" href="https://app.axis.africa/register">
+                         <button class="btn primary-btn" id="cta-start">Get Started</button>
+                        </a>
+                        <a href="mailto:support@axis.africa">
+                         <button class="btn primary-btn request-demo" id="cta-demo">Request Demo</button>
+                        </a>
                      </div>
                      <p class="set-up">Easy setup · Cancel any time. Check out <a href="https://clients.belva.co.ke/axis/terms-conditions/">Terms of Use.</a></p>
 

@@ -254,8 +254,8 @@ h3 {
 /* End of CSS by Daisy */
 
 .fill-inner {
-    padding: 40px;
-    background: linear-gradient(45deg, #e9fcff 30%, #fdf2ed 60%);
+    /* padding: 40px; */
+    /* background: linear-gradient(45deg, #e9fcff 30%, #fdf2ed 60%); */
 }
 
 .mobile-partners .owl-nav button.owl-prev {
@@ -982,7 +982,7 @@ button.forminator-button.forminator-button-submit {
 
 .page-id-130 .inside-pages-topper {
     background: linear-gradient(45deg, #e9fcff 30%, #fdf2ed 60%);
-    height: 174px;
+    height: 200px;
     background-image: url(https://clients.belva.co.ke/axis/wp-content/uploads/2022/06/payments-pricing-1024x378-1.jpeg);
     display: flex;
     align-items: center;
@@ -1003,4 +1003,17 @@ section.blogs-section {
 
 span.tele:hover {
     color: #000;
+}
+
+.inside-pages-topper {
+    /* background: linear-gradient(45deg, #e9fcff 30%, #fdf2ed 60%); */
+    height: 200px;
+    /* background-image: url(https://clients.belva.co.ke/axis/wp-content/uploads/2022/06/axis-banner-1024x368-1.jpeg); */
+    display: flex;
+    align-items: center;
+    background-image: url(https://clients.belva.co.ke/axis/wp-content/uploads/2022/06/axis-banner-1024x368-1.jpeg);
+}
+
+.inside-pages-topper h2 {
+    margin-top: 20px;
 }
